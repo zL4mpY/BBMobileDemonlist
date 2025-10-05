@@ -1,0 +1,17 @@
+{
+    "id": 242576,
+    "name": "Drifters",
+    "author": "Mob_v0rtex",
+    "creators": ["Mob_v0rtex"],
+    "verifier": "Mob_v0rtex",
+    "verification": "https://www.youtube.com/watch?v=ebcyVCrLwvc",
+    "percentToQualify": "60",
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/8ieicxxnbW0",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

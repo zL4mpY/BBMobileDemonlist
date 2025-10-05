@@ -1,0 +1,27 @@
+{
+    "id": "886916",
+    "name": "Kayouki",
+    "author": "robodragos19",
+    "creators": [
+        "Gameplay14239",
+        "speedslash55",
+        "rouxi242"
+    ],
+    "verifier": "robodragos19",
+    "verification": "https://youtu.be/Q-YVntyWhBU",
+    "percentToQualify": "43",
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://www.youtube.com/watch?v=WqtxxOyBTpw",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=MhvVgdl6-B8",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

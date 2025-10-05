@@ -1,0 +1,19 @@
+{
+    "id": "113745",
+    "name": "Congregation (new)",
+    "author": "pe6el",
+    "creators": [
+        "pe6el"
+    ],
+    "verifier": "pe6el",
+    "verification": "https://youtu.be/_FkUam1_Z24",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=9TxeTwi5Vjo",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

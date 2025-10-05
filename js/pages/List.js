@@ -9,6 +9,7 @@ import LevelAuthors from "../components/List/LevelAuthors.js";
 const roleIconMap = {
     owner: "crown",
     admin: "user-gear",
+    mod: "user-shield",
     helper: "user-shield",
     dev: "code",
     trial: "user-lock",
@@ -49,10 +50,6 @@ export default {
                         <li>
                             <div class="type-title-sm">ID</div>
                             <p>{{ level.id }}</p>
-                        </li>
-                        <li>
-                            <div class="type-title-sm">Password</div>
-                            <p>{{ level.password || 'Free to Copy' }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
@@ -100,29 +97,48 @@ export default {
                     </template>
                     <h3>Submission Requirements</h3>
                     <p>
-                        Achieved the record without using hacks (however, FPS bypass is allowed, up to 360fps)
+                        Achieved the record without using hacks
                     </p>
                     <p>
                         Achieved the record on the level that is listed on the site - please check the level ID before you submit a record
                     </p>
                     <p>
-                        Have either source audio or clicks/taps in the video. Edited audio only does not count
+                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt.
                     </p>
                     <p>
-                        The recording must have a previous attempt and entire death animation shown before the completion, unless the completion is on the first attempt. Everyplay records are exempt from this
-                    </p>
-                    <p>
-                        The recording must also show the player hit the endwall, or the completion will be invalidated.
+                        After reaching the 100% end screen, you must show the level menu to confirm your placement on the in-game leaderboard
                     </p>
                     <p>
                         Do not use secret routes or bug routes
                     </p>
                     <p>
-                        Do not use easy modes, only a record of the unmodified level qualifies
+                        Do not use easy modes, only a record of the unmodified level qualifies (except if the level was beaten on verified LDM copy)
                     </p>
                     <p>
-                        Once a level falls onto the Legacy List, we accept records for it for 24 hours after it falls off, then afterwards we never accept records for said level
+                        Records for legacy list levels do not get accepted
                     </p>
+                    <h3>Skip categories</h3>
+                    <h6>Type 1: Always Allowed</h6>
+                    <p>Skips that minimally affect the level's difficulty or increase its challenge.</p>
+
+                    <h6>Type 2: Conditionally Allowed</h6>
+                    <p>Skips that significantly reduce the difficulty. These are permitted only if unpatched (submissions made before a patch will not be retroactively disqualified).</p>
+
+                    <h6>Type 3: Strictly Prohibited</h6>
+                    <p>Skips involving secret routes or bypassing major challenges.</p>
+
+                    <h3>Mobile recording software</h3>
+                    <h6>iOS:</h6>
+                    <p>Built-in iOS screen recording</p>
+                    <p>Record It!</p>
+
+                    <h6>Android:</h6>
+                    <p>Built-in Android screen recording</p>
+                    <p>DU Recorder</p>
+                    <p>Mobizen</p>
+                    <p>XRecorder</p>
+                    <p>AZ Screen Recorder</p>
+
                 </div>
             </div>
         </main>

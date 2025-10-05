@@ -1,0 +1,31 @@
+{
+    "id": "676228",
+    "name": "RIVERS OF LOVE",
+    "author": "tccgranmd",
+    "creators": [
+        "tccgranmd"
+    ],
+    "verifier": "tccgranmd",
+    "verification": "https://youtu.be/SA-8EDBCeFM",
+    "percentToQualify": "53",
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://www.youtube.com/watch?v=OROclNmF8ZU",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=YECH3vyWttA",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=wt4WeBEswME",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

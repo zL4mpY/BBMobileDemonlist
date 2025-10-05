@@ -1,0 +1,29 @@
+{
+    "id": 480022,
+    "name": "Verdant Willows",
+    "author": "s3nW",
+    "creators": ["s3nW"],
+    "verifier": "s3nW",
+    "verification": "https://www.youtube.com/watch?v=4CdTS5kQy28",
+    "percentToQualify": "61",
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=X5eGERXRWao",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "enimeoww",
+            "link": "https://www.youtube.com/watch?v=NWsXVwLoxIE",
+            "percent": 100,
+            "hz": 90
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=2X8PoWUF9n4",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

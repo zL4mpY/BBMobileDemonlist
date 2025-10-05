@@ -1,0 +1,25 @@
+{
+    "id": "968001",
+    "name": "MAYMORY",
+    "author": "tccgranmd",
+    "creators": [
+        "tccgranmd"
+    ],
+    "verifier": "tccgranmd",
+    "verification": "https://youtu.be/UmbQlcON5I4",
+    "percentToQualify": "60",
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://www.youtube.com/watch?v=30jnm6mOmls",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=QT6AhFHBpbc",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

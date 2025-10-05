@@ -1,0 +1,25 @@
+{
+    "id": "445579",
+    "name": "Manic Meadows",
+    "author": "s3nW",
+    "creators": [
+        "s3nW"
+    ],
+    "verifier": "s3nW",
+    "verification": "https://youtu.be/TPL_d4vfu0s",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=03pKpsgJyMo",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=tEY_AreYeGU",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "id": "156452",
+    "name": "Rainbow Machine",
+    "author": "SulSoul_2",
+    "creators": [
+        "SulSoul_2"
+    ],
+    "verifier": "SulSoul_2",
+    "verification": "https://youtu.be/8_8jWMFIlAk",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=0xcXYnnwXYg",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

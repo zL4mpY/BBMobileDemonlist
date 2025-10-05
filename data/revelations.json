@@ -1,0 +1,19 @@
+{
+    "id": "524353",
+    "name": "Revelations",
+    "author": "Omasia",
+    "creators": [
+        "P1xel_Ten"
+    ],
+    "verifier": "Omasia",
+    "verification": "https://www.youtube.com/watch?v=j4hOYQ-goCU",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=oFNVgCNXdOE",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

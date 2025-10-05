@@ -1,0 +1,35 @@
+{
+    "id": 523457,
+    "name": "Festive Frostland",
+    "author": "GhaztGD",
+    "creators": ["GhaztGD"],
+    "verifier": "GhaztGD",
+    "verification": "https://www.youtube.com/watch?v=Js4UAkNFjBE",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=KCBszjuilCU",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://www.youtube.com/watch?v=fGjJRzleVcM",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "enimeoww",
+            "link": "https://www.youtube.com/watch?v=wo-l4azYSrc",
+            "percent": 100,
+            "hz": 90
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=nuhi3FsxL0Y",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
