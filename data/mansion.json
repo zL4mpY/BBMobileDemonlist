@@ -13,7 +13,7 @@
             "user": "Aliqabalasad2305",
             "link": "https://www.youtube.com/watch?v=iV98RnFi6YM",
             "percent": 100,
-            "hz": 60
+            "hz": 120
         },
         {
             "user": "ramanoo2",
@@ -24,6 +24,12 @@
         {
             "user": "Fernando362721",
             "link": "https://www.youtube.com/watch?v=79vGiQL9Phg",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/ooZ_759XUqw",
             "percent": 100,
             "hz": 120
         }
