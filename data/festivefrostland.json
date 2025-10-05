@@ -2,7 +2,9 @@
     "id": 523457,
     "name": "Festive Frostland",
     "author": "GhaztGD",
-    "creators": ["GhaztGD"],
+    "creators": [
+        "GhaztGD"
+    ],
     "verifier": "GhaztGD",
     "verification": "https://www.youtube.com/watch?v=Js4UAkNFjBE",
     "percentToQualify": "50",
@@ -28,6 +30,12 @@
         {
             "user": "Fernando362721",
             "link": "https://www.youtube.com/watch?v=nuhi3FsxL0Y",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Aliqabalasad2305",
+            "link": "https://youtu.be/1L7ITMj_QdM",
             "percent": 100,
             "hz": 120
         }

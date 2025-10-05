@@ -2,7 +2,9 @@
     "id": 480022,
     "name": "Verdant Willows",
     "author": "s3nW",
-    "creators": ["s3nW"],
+    "creators": [
+        "s3nW"
+    ],
     "verifier": "s3nW",
     "verification": "https://www.youtube.com/watch?v=4CdTS5kQy28",
     "percentToQualify": "61",
@@ -22,6 +24,12 @@
         {
             "user": "Fernando362721",
             "link": "https://www.youtube.com/watch?v=2X8PoWUF9n4",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Aliqabalasad2305",
+            "link": "https://youtu.be/2-3Cz3PON-8",
             "percent": 100,
             "hz": 120
         }
