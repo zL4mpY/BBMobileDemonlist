@@ -28,9 +28,15 @@
             "hz": 90
         },
         {
-            "user": "Aqilhensem_182",
+            "user": "Aqilhensem_128",
             "link": "https://youtu.be/wp4Zn1LT0WM",
             "percent": 61,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/COJXytipX_Q",
+            "percent": 100,
             "hz": 60
         }
     ]
