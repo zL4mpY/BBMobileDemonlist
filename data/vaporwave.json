@@ -1,0 +1,25 @@
+{
+    "id": "301730",
+    "name": "Vaporwave",
+    "author": "jesus4270",
+    "creators": [
+        "jesus4270"
+    ],
+    "verifier": "jesus4270",
+    "verification": "https://youtu.be/FNG8HkbPEv0",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Aliqabalasad2305",
+            "link": "https://youtu.be/3aPwIjrYbns",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "enimeoww",
+            "link": "none",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

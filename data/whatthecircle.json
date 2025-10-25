@@ -1,0 +1,19 @@
+{
+    "id": "687727",
+    "name": "what the circle",
+    "author": "TCCGrand",
+    "creators": [
+        "SentinelAscent"
+    ],
+    "verifier": "TCCGrand",
+    "verification": "https://youtu.be/iyGy_zaLYMQ",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/SQ6KJFl2b_4",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

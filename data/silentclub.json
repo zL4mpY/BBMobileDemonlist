@@ -2,7 +2,10 @@
     "id": 532225,
     "name": "Silent Club",
     "author": "Vasim4ik_642",
-    "creators": ["Vasim4ik_642", "enimeoww"],
+    "creators": [
+        "Vasim4ik_642",
+        "enimeoww"
+    ],
     "verifier": "enimeoww",
     "verification": "https://www.youtube.com/watch?v=MTOUGQ9eJFs",
     "percentToQualify": "52",
@@ -10,6 +13,12 @@
         {
             "user": "Fernando362721",
             "link": "https://www.youtube.com/watch?v=UIYktwUa7tU",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/GGu9yBZYtZY",
             "percent": 100,
             "hz": 120
         }
