@@ -2,7 +2,10 @@
     "id": 991160,
     "name": "Eruption",
     "author": "robodragos19",
-    "creators": ["ILoveBabiesBennemans", "Wundemn3"],
+    "creators": [
+        "ILoveBabiesBennemans",
+        "Wundemn3"
+    ],
     "verifier": "robodragos19",
     "verification": "https://youtu.be/bL_Ic2_H7iY",
     "percentToQualify": 50,
@@ -12,6 +15,12 @@
             "link": "https://youtu.be/gPDjdNmtMM0",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/1-_of9E2uAI?si=ANUtHEVHvnyOPjcb",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
