@@ -10,6 +10,12 @@
     "percentToQualify": "50",
     "records": [
         {
+            "user": "TeteuRadical2209",
+            "link": "https://youtu.be/HFV4PU65XLg",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "enimeoww",
             "link": "none",
             "percent": 100,
@@ -26,6 +32,12 @@
             "link": "https://www.youtube.com/watch?v=sUbjks1DPPc",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/dFXU6Ym1Mig",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
