@@ -1,0 +1,55 @@
+{
+    "id": "331673",
+    "name": "abandoned laboratory",
+    "author": "brawl_starsBrozGame",
+    "creators": [
+        "brawl_starsBrozGame"
+    ],
+    "verifier": "brawl_starsBrozGame",
+    "verification": "https://www.youtube.com/watch?v=cwRDw2WGvtQ",
+    "percentToQualify": "75",
+    "records": [
+        {
+            "user": "kostasfilippos2",
+            "link": "https://www.youtube.com/watch?v=juMFhmzNc_Y",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Ytuaay",
+            "link": "https://www.youtube.com/watch?v=cwRDw2WGvtQ",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "SonicDash0007",
+            "link": "https://www.youtube.com/watch?v=B9OfZNABlrA",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Lonk_14",
+            "link": "https://www.youtube.com/watch?v=wAFsPTYUE8A",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=OAJqfHnTMII",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "sobolapadure",
+            "link": "https://www.youtube.com/watch?v=eM6EVYLK3Kw",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "RedWotah",
+            "link": "https://www.youtube.com/watch?v=iuK-LJ7Odqw",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

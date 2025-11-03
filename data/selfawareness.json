@@ -1,0 +1,67 @@
+{
+    "id": "133793",
+    "name": "Self Awareness",
+    "author": "GhaztGD",
+    "creators": [
+        "GhaztGD"
+    ],
+    "verifier": "GhaztGD",
+    "verification": "https://youtu.be/IP28tBp7Xeo",
+    "percentToQualify": "70",
+    "records": [
+        {
+            "user": "TheReal_Adoma7654",
+            "link": "https://www.youtube.com/watch?v=H_D_SJM15X4",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Aliqabalasad2305",
+            "link": "https://www.youtube.com/watch?v=5g_L762LLKo",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Ytuaay",
+            "link": "https://www.youtube.com/watch?v=vzJaf2lb8Us",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Zeaplus",
+            "link": "https://www.youtube.com/watch?v=qIhYZ9syG9M",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "SonicDash0007",
+            "link": "https://www.youtube.com/watch?v=5XgBD0F5Ji0",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Lonk_14",
+            "link": "https://www.youtube.com/watch?v=wAFsPTYUE8A",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=lgHxC33qLxE",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Tigero27",
+            "link": "https://www.youtube.com/watch?v=c0Vb6E-W5Yg&t=2s",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "RedWotah",
+            "link": "https://www.youtube.com/watch?v=1oa9AXV4eYo",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
