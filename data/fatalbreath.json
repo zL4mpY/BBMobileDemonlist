@@ -27,6 +27,12 @@
             "link": "https://www.youtube.com/watch?v=Wgeyg5LRBfY",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=kqlFj8XnWg4",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }

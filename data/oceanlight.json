@@ -50,6 +50,12 @@
             "link": "https://www.youtube.com/watch?v=uwrm1WX39kw",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/GXIgBsv8NGI?si=yCWPAj8bbhjJJnYH",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
