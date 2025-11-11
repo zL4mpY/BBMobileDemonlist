@@ -22,6 +22,12 @@
             "hz": 60
         },
         {
+            "user": "Aliqabalasad2305",
+            "link": "https://youtu.be/1L7ITMj_QdM",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "enimeoww",
             "link": "https://www.youtube.com/watch?v=wo-l4azYSrc",
             "percent": 100,
@@ -32,12 +38,6 @@
             "link": "https://www.youtube.com/watch?v=nuhi3FsxL0Y",
             "percent": 100,
             "hz": 120
-        },
-        {
-            "user": "Aliqabalasad2305",
-            "link": "https://youtu.be/1L7ITMj_QdM",
-            "percent": 100,
-            "hz": 60
         }
     ]
 }

@@ -10,6 +10,18 @@
     "percentToQualify": "50",
     "records": [
         {
+            "user": "NorthernSki",
+            "link": "https://www.youtube.com/watch?v=CmU4cBS8aPA",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://www.youtube.com/watch?v=SSrG9E8xDOc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "Fernando362721",
             "link": "https://www.youtube.com/watch?v=9TxeTwi5Vjo",
             "percent": 100,

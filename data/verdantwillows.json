@@ -10,10 +10,10 @@
     "percentToQualify": "61",
     "records": [
         {
-            "user": "ObjectiveSplat",
-            "link": "https://www.youtube.com/watch?v=X5eGERXRWao",
+            "user": "TeteuRadical2209",
+            "link": "https://youtu.be/M4F0qe_P3Dg",
             "percent": 100,
-            "hz": 120
+            "hz": 60
         },
         {
             "user": "enimeoww",
@@ -22,8 +22,8 @@
             "hz": 90
         },
         {
-            "user": "Fernando362721",
-            "link": "https://www.youtube.com/watch?v=2X8PoWUF9n4",
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=X5eGERXRWao",
             "percent": 100,
             "hz": 120
         },
@@ -34,10 +34,10 @@
             "hz": 60
         },
         {
-            "user": "TeteuRadical2209",
-            "link": "https://youtu.be/M4F0qe_P3Dg",
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=2X8PoWUF9n4",
             "percent": 100,
-            "hz": 60
+            "hz": 120
         }
     ]
 }

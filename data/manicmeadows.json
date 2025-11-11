@@ -10,6 +10,12 @@
     "percentToQualify": "50",
     "records": [
         {
+            "user": "TeteuRadical2209",
+            "link": "https://youtu.be/T5iWH_OWGzo",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "ObjectiveSplat",
             "link": "https://www.youtube.com/watch?v=03pKpsgJyMo",
             "percent": 100,
@@ -24,12 +30,6 @@
         {
             "user": "inkyfredfazbear43215",
             "link": "https://youtu.be/Xh5qsqA4_oA",
-            "percent": 100,
-            "hz": 60
-        },
-        {
-            "user": "TeteuRadical2209",
-            "link": "https://youtu.be/T5iWH_OWGzo",
             "percent": 100,
             "hz": 60
         }

@@ -1,0 +1,25 @@
+{
+    "id": "297381",
+    "name": "I.C.U",
+    "author": "Ravioliandbeans35",
+    "creators": [
+        "Ravioliandbeans35"
+    ],
+    "verifier": "Ravioliandbeans35",
+    "verification": "https://youtu.be/Vva4rJ3Cvuk",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://www.youtube.com/watch?v=SSrG9E8xDOc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "RedWotah",
+            "link": "https://www.youtube.com/watch?v=Wgeyg5LRBfY",
+            "percent": 100,
+            "hz": 60
+        }        
+    ]
+}
