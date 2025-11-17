@@ -50,6 +50,18 @@
             "link": "https://www.youtube.com/watch?v=Dcbd0q2d2iE",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/iuKtF3__Bfk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/JqdEsaSLqTI",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
