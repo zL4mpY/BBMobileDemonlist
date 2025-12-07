@@ -49,27 +49,7 @@ export async function fetchList() {
 
     try {
         const list = await res.json();
-        return await Promise.all(
-            list.map(async (path, rank) => {
-                const levelResult = await fetch(`${dir}/${path}.json`);
-                try {
-                    const level = await levelResult.json();
-                    return [
-                        {
-                            ...level,
-                            path,
-                            records: level.records.sort(
-                                (a, b) => b.percent - a.percent,
-                            ),
-                        },
-                        null,
-                    ];
-                } catch {
-                    console.error(`Failed to load level #${rank + 1} ${path}.`);
-                    return [null, path];
-                }
-            }),
-        );
+        return list;
     } catch {
         console.error(`Failed to load list.`);
         return null;
