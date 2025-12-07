@@ -41,13 +41,7 @@ export async function onRequest({ env }) {
             },
         });
 
-        if (!listRes.ok) {
-            console.error("Response is not ok");
-            return new Response(JSON.stringify({ error: 'Failed to load data', checks: checks }), {
-                status: 500,
-                headers: { 'Content-Type': 'application/json' },
-            });
-        }
+        if (!listRes.ok) throw new Error('Failed to fetch _list.json');
 
         checks++;
 
@@ -60,7 +54,7 @@ export async function onRequest({ env }) {
                     headers: {
                         Authorization: `token ${GITHUB_TOKEN}`,
                         Accept: 'application/vnd.github.v3.raw',
-                    },
+                    }
                 });
 
                 if (!levelRes.ok) {
