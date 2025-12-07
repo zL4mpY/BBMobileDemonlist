@@ -4,16 +4,51 @@ import { round, score } from './score.js';
  * Path to directory containing `_list.json` and all levels
  */
 const dir = 'https://raw.githubusercontent.com/zL4mpY/bbmdl_data/refs/heads/main';
-const GITHUB_ACCESS_TOKEN = process.env.GITHUB_TOKEN
+
+// export async function fetchList() {
+//     const listResult = await fetch(`${dir}/_list.json`, {
+//          'Authorization': `token ${GITHUB_ACCESS_TOKEN}`,
+//          'Accept': 'application/vnd.github.v3.raw'
+//     });
+    
+//     try {
+//         const list = await listResult.json();
+//         return await Promise.all(
+//             list.map(async (path, rank) => {
+//                 const levelResult = await fetch(`${dir}/${path}.json`);
+//                 try {
+//                     const level = await levelResult.json();
+//                     return [
+//                         {
+//                             ...level,
+//                             path,
+//                             records: level.records.sort(
+//                                 (a, b) => b.percent - a.percent,
+//                             ),
+//                         },
+//                         null,
+//                     ];
+//                 } catch {
+//                     console.error(`Failed to load level #${rank + 1} ${path}.`);
+//                     return [null, path];
+//                 }
+//             }),
+//         );
+//     } catch {
+//         console.error(`Failed to load list.`);
+//         return null;
+//     }
+// }
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}/_list.json`, {
-         'Authorization': `token ${GITHUB_ACCESS_TOKEN}`,
-         'Accept': 'application/vnd.github.v3.raw'
-    });
-    
+    const res = await fetch('/api/fetch-list'); // ← Cloudflare Pages Function
+    if (!res.ok) {
+        console.error('Failed to load list from API');
+        return null;
+    }
+
     try {
-        const list = await listResult.json();
+        const list = await res.json();
         return await Promise.all(
             list.map(async (path, rank) => {
                 const levelResult = await fetch(`${dir}/${path}.json`);
@@ -42,13 +77,15 @@ export async function fetchList() {
 }
 
 export async function fetchEditors() {
-    try {
-        const editorsResults = await fetch(`${dir}/_editors.json`);
-        const editors = await editorsResults.json();
-        return editors;
-    } catch {
+
+    const res = await fetch('/api/fetch-editors'); // ← Cloudflare Pages Function
+    if (!res.ok) {
+        console.error('Failed to load editors from API');
         return null;
     }
+
+    const editors = await res.json();
+    return editors;
 }
 
 export async function fetchLeaderboard() {
