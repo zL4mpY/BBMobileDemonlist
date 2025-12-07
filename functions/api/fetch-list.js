@@ -43,7 +43,10 @@ export async function onRequest({ env }) {
 
         if (!listRes.ok) {
             console.error("Response is not ok");
-            throw new Error('Failed to fetch _list.json');
+            return new Response(JSON.stringify({ error: 'Failed to load data', checks: checks }), {
+                status: 500,
+                headers: { 'Content-Type': 'application/json' },
+            });
         }
 
         checks++;
