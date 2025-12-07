@@ -57,7 +57,7 @@ export async function onRequest({ env }) {
                     headers: {
                         Authorization: `token ${GITHUB_TOKEN}`,
                         Accept: 'application/vnd.github.v3.raw',
-                    }
+                    },
                 });
 
                 if (!levelRes.ok) {
@@ -92,7 +92,7 @@ export async function onRequest({ env }) {
         });
     } catch (err) {
         console.error(err);
-        return new Response(JSON.stringify({ error: 'Failed to load data', checks: checks }), {
+        return new Response(JSON.stringify({ error: 'Failed to load data', checks: checks, list: list }), {
             status: 500,
             headers: { 'Content-Type': 'application/json' },
         });
