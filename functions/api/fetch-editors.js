@@ -11,7 +11,7 @@ export async function onRequest({ env }) {
             },
         });
 
-        if (!listRes.ok) throw new Error('Failed to fetch _list.json');
+        if (!listRes.ok) throw new Error('Failed to fetch _editors.json');
         const list = await listRes.json();
 
         return new Response(JSON.stringify(list), {

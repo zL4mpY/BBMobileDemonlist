@@ -40,8 +40,6 @@ export async function onRequest({ env }) {
             },
         });
 
-        console.log(listRes);
-
         if (!listRes.ok) throw new Error('Failed to fetch _list.json');
         const list = await listRes.json();
 
@@ -58,28 +56,34 @@ export async function onRequest({ env }) {
                     console.warn(`Failed to load ${path}.json`);
                     return null;
                 }
-                const level = await levelRes.json();
-                return [
-                    {
-                        ...level,
-                        path,
-                        records: level.records.sort(
-                            (a, b) => b.percent - a.percent,
-                        ),
-                    },
-                    null,
-                ];
+
+                try {
+                    const level = await levelRes.json();
+                    return [
+                        {
+                            ...level,
+                            path,
+                            records: level.records.sort(
+                                (a, b) => b.percent - a.percent,
+                            ),
+                        },
+                        null,
+                    ];
+                } catch {
+                    console.error(`Failed to load level #${rank + 1} ${path}.`);
+                    return [null, path];
+                }
             })
         );
 
         return new Response(JSON.stringify(levels), {
-        headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'application/json' },
         });
     } catch (err) {
         console.error(err);
         return new Response(JSON.stringify({ error: 'Failed to load data' }), {
-        status: 500,
-        headers: { 'Content-Type': 'application/json' },
+            status: 500,
+            headers: { 'Content-Type': 'application/json' },
         });
     }
 }
