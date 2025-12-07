@@ -4,9 +4,14 @@ import { round, score } from './score.js';
  * Path to directory containing `_list.json` and all levels
  */
 const dir = 'https://raw.githubusercontent.com/zL4mpY/bbmdl_data/refs/heads/main';
+const GITHUB_ACCESS_TOKEN = process.env.GITHUB_TOKEN
 
 export async function fetchList() {
-    const listResult = await fetch(`${dir}/_list.json`);
+    const listResult = await fetch(`${dir}/_list.json`, {
+         'Authorization': `token ${GITHUB_ACCESS_TOKEN}`,
+         'Accept': 'application/vnd.github.v3.raw'
+    });
+    
     try {
         const list = await listResult.json();
         return await Promise.all(
