@@ -40,6 +40,8 @@ export async function onRequest({ env }) {
             },
         });
 
+        console.log(listRes);
+
         if (!listRes.ok) throw new Error('Failed to fetch _list.json');
         const list = await listRes.json();
 
