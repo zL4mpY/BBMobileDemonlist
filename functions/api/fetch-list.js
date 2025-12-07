@@ -30,6 +30,7 @@ export async function onRequest({ env }) {
     // const GITHUB_TOKEN = env.GITHUB_TOKEN; // берётся из секретов Cloudflare
     const GITHUB_TOKEN = env.GITHUB_TOKEN;
     const REPO_URL = 'https://raw.githubusercontent.com/zL4mpY/bbmdl_data/refs/heads/main';
+    let checks = 0;
 
     try {
         // Загружаем список уровней
@@ -40,18 +41,25 @@ export async function onRequest({ env }) {
             },
         });
 
-        if (!listRes.ok) throw new Error('Failed to fetch _list.json');
+        if (!listRes.ok) {
+            console.error("Response is not ok");
+            throw new Error('Failed to fetch _list.json');
+        }
+
+        checks++;
+
         const list = await listRes.json();
 
         // Загружаем каждый уровень
         const levels = await Promise.all(
             list.map(async (path) => {
                 const levelRes = await fetch(`${REPO_URL}/${path}.json`, {
-                headers: {
-                    Authorization: `token ${GITHUB_TOKEN}`,
-                    Accept: 'application/vnd.github.v3.raw',
-                },
+                    headers: {
+                        Authorization: `token ${GITHUB_TOKEN}`,
+                        Accept: 'application/vnd.github.v3.raw',
+                    }
                 });
+
                 if (!levelRes.ok) {
                     console.warn(`Failed to load ${path}.json`);
                     return null;
@@ -59,6 +67,7 @@ export async function onRequest({ env }) {
 
                 try {
                     const level = await levelRes.json();
+                    checks++;
                     return [
                         {
                             ...level,
@@ -76,12 +85,14 @@ export async function onRequest({ env }) {
             })
         );
 
+        checks++;
+
         return new Response(JSON.stringify(levels), {
             headers: { 'Content-Type': 'application/json' },
         });
     } catch (err) {
         console.error(err);
-        return new Response(JSON.stringify({ error: 'Failed to load data' }), {
+        return new Response(JSON.stringify({ error: 'Failed to load data', checks: checks }), {
             status: 500,
             headers: { 'Content-Type': 'application/json' },
         });
