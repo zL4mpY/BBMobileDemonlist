@@ -6,7 +6,7 @@ export async function onRequest({ env }) {
         // Загружаем список уровней
         const listRes = await fetch(`${REPO_URL}/_list.json`, {
             headers: {
-                Authorization: `token ${GITHUB_TOKEN}`,
+                Authorization: `Bearer ${GITHUB_TOKEN}`,
                 Accept: 'application/vnd.github.v3.raw',
             },
         });
