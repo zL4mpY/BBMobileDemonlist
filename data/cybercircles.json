@@ -1,0 +1,25 @@
+{
+    "id": "694971",
+    "name": "cyber circles",
+    "author": "tccgranmd",
+    "creators": [
+        "tccgranmd"
+    ],
+    "verifier": "tccgranmd",
+    "verification": "https://youtu.be/mwxTOgA0HDo",
+    "percentToQualify": "51",
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/cRmEaKQ1B1A",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=bvX4dJgVLgs",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

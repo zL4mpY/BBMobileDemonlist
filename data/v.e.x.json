@@ -1,0 +1,19 @@
+{
+    "id": "341565",
+    "name": "V.E.X",
+    "author": "ficljtvn",
+    "creators": [
+        "ficljtvn"
+    ],
+    "verifier": "enimeoww",
+    "verification": "https://www.youtube.com/watch?v=diOTYr6GEb8",
+    "percentToQualify": "70",
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/5MCBTl4eV2w",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

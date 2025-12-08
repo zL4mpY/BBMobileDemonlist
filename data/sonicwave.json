@@ -1,0 +1,73 @@
+{
+    "id": "88594",
+    "name": "Sonic Wave",
+    "author": "33Root",
+    "creators": [
+        "33Root"
+    ],
+    "verifier": "33Root",
+    "verification": "https://youtu.be/VUUrR44nwdA",
+    "percentToQualify": "48",
+    "records": [
+        {
+            "user": "kostasfilippos2",
+            "link": "https://www.youtube.com/watch?v=32itwk1O-3E",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://www.youtube.com/watch?v=hZEsF7zU9J8",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "SonicDash0007",
+            "link": "https://www.youtube.com/watch?v=Dn0JFrP5jMU",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "hosen202020",
+            "link": "https://www.youtube.com/watch?v=Bx3VHQCNTGs",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Ytuaay",
+            "link": "https://www.youtube.com/watch?v=qI70ze_pYAU",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Lonk_14",
+            "link": "https://www.youtube.com/watch?v=F9ip7nvvG-0",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "RedWotah",
+            "link": "https://www.youtube.com/watch?v=Dcbd0q2d2iE",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/iuKtF3__Bfk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/JqdEsaSLqTI",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "KarmaGMD",
+            "link": "https://www.youtube.com/watch?v=H3A4bthLZ-M",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "id": "301730",
+    "name": "Vaporwave",
+    "author": "jesus4270",
+    "creators": [
+        "jesus4270"
+    ],
+    "verifier": "jesus4270",
+    "verification": "https://youtu.be/FNG8HkbPEv0",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://www.youtube.com/watch?v=qduOI9BCpxA",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "hosen202020",
+            "link": "https://www.youtube.com/watch?v=2W3x3Wy585g",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Aliqabalasad2305",
+            "link": "https://youtu.be/3aPwIjrYbns",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "kostasfilippos2",
+            "link": "https://www.youtube.com/watch?v=UKi3PtH4XBA",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Markgold_supreme",
+            "link": "https://www.youtube.com/watch?v=_swnACbm5RU",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "enimeoww",
+            "link": "none",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "sobolapadure",
+            "link": "https://youtu.be/hOBNgibS-oU",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=NbCMBYdHwFc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/auh0SQ8ApFU?si=vpL0gXrMU3wCeyww",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/q5Q_LlvLPDY",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "KarmaGMD",
+            "link": "https://youtu.be/1rmEBP17HhM",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

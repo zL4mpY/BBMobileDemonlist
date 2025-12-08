@@ -1,0 +1,19 @@
+{
+    "id": "546296",
+    "name": "SUFFER",
+    "author": "ILoveBabiesBennemans",
+    "creators": [
+        "ILoveBabiesBennemans"
+    ],
+    "verifier": "ILoveBabiesBennemans",
+    "verification": "https://youtu.be/V1O8oX5SO5k",
+    "percentToQualify": "100",
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/fc6PUTQzow0",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

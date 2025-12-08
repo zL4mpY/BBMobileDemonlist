@@ -1,0 +1,43 @@
+{
+    "id": "169009",
+    "name": "Frozen Landscape",
+    "author": "Dizzymaroo",
+    "creators": [
+        "Dizzymaroo"
+    ],
+    "verifier": "Dizzymaroo",
+    "verification": "https://youtu.be/Bz8ZtC_gwng",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Ytuaay",
+            "link": "https://www.youtube.com/watch?v=TOqBEOb-WDo",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=ZNOlqhTqhVo",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "kostasfilippos2",
+            "link": "https://www.youtube.com/watch?v=is19jtQRJt4",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=ARiqS7cpF2g",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://www.youtube.com/watch?v=ZqzLN1iNs9A",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

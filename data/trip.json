@@ -1,0 +1,67 @@
+{
+    "id": "448598",
+    "name": "Trip",
+    "author": "TeamLumix",
+    "creators": [
+        "TeamLumix"
+    ],
+    "verifier": "enimeoww",
+    "verification": "https://www.youtube.com/watch?v=NKonR3Oc86k",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Ytuaay",
+            "link": "https://www.youtube.com/watch?v=8ww33w6-FMQ",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Lonk_14",
+            "link": "https://www.youtube.com/watch?v=wAFsPTYUE8A",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "RedWotah",
+            "link": "https://www.youtube.com/watch?v=Y0rwliAVffw",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://youtu.be/T5iWH_OWGzo",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "sobolapadure",
+            "link": "https://youtu.be/T1-X3NRZusU",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/JpYvhrUBnLc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/1F6HMEkt_I0",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/n7m0NiCkjCo",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "KarmaGMD",
+            "link": "https://www.youtube.com/watch?v=PNDKyRLUZSE",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

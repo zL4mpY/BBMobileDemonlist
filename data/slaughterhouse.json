@@ -1,0 +1,31 @@
+{
+    "id": "28018",
+    "name": "SLAUGHTERHOUSE",
+    "author": "enimeoww",
+    "creators": [
+        "enimeoww"
+    ],
+    "verifier": "enimeoww",
+    "verification": "https://www.youtube.com/watch?v=2AtONKwBqkE",
+    "percentToQualify": "66",
+    "records": [
+        {
+            "user": "enimeoww",
+            "link": "https://www.youtube.com/watch?v=2NnfbDmqGno",
+            "percent": 100,
+            "hz": 90
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/Xh_u4uvqwvQ",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/HVNmQm9smnY",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

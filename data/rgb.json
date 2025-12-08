@@ -1,0 +1,25 @@
+{
+    "id": "1352233",
+    "name": "RGB",
+    "author": "tetsutetsu_krd",
+    "creators": [
+        "tetsutetsu_krd"
+    ],
+    "verifier": "tetsutetsu_krd",
+    "verification": "https://youtu.be/F4CW4rIiuIU",
+    "percentToQualify": "59",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/kzaSoj7UqSA",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/ELal_t4gQ1M",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

@@ -1,0 +1,61 @@
+{
+    "id": "3",
+    "name": "Fire in the hole",
+    "author": "kuel27",
+    "creators": [
+        "kuel27"
+    ],
+    "verifier": "kuel27",
+    "verification": "https://youtu.be/MG-NUtE0npY",
+    "percentToQualify": "64",
+    "records": [
+        {
+            "user": "Ytuaay",
+            "link": "https://www.youtube.com/watch?v=mCY8_fCG1bk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "kostasfilippos2",
+            "link": "https://www.youtube.com/watch?v=3wOEmQWOJg8",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Lonk_14",
+            "link": "https://www.youtube.com/watch?v=F9ip7nvvG-0",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://www.youtube.com/watch?v=v9oJD08sXV8",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "SonicDash0007",
+            "link": "https://www.youtube.com/watch?v=wgtHxWxJScQ",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "RedWotah",
+            "link": "https://www.youtube.com/watch?v=SoJ7c7JfouQ",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/Ci-wwPe_x2Q",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/lrO25G74CUk",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

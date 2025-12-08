@@ -1,0 +1,25 @@
+{
+    "id": "576533",
+    "name": "Recollection",
+    "author": "Retry_plays",
+    "creators": [
+        "TCCGrand"
+    ],
+    "verifier": "Retry_plays",
+    "verification": "https://youtu.be/ZjcfAnhqLv8",
+    "percentToQualify": "48",
+    "records": [
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://www.youtube.com/watch?v=1sEomnjwvq8",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/uvCQ9rQM2XA",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

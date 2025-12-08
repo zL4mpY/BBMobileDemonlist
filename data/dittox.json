@@ -1,0 +1,31 @@
+{
+    "id": "144178",
+    "name": "DittoX",
+    "author": "ToxicToChildren",
+    "creators": [
+        "ToxicToChildren"
+    ],
+    "verifier": "ToxicToChildren",
+    "verification": "https://youtu.be/z4Q3_G_YtdQ",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "enimeoww",
+            "link": "https://www.youtube.com/watch?v=2whJpUJZ5Vo",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/2bUt5cQHF5g?si=fx8bARXtE2LuM49x",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/OhbqUkaJR3E",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

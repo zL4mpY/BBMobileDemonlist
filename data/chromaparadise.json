@@ -1,0 +1,31 @@
+{
+    "id": "657165",
+    "name": "Chroma Paradise",
+    "author": "Retry_plays",
+    "creators": [
+        "MatHiasXD740"
+    ],
+    "verifier": "Retry_plays",
+    "verification": "https://youtu.be/qK1UzsoxW6Q",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://www.youtube.com/watch?v=TNlaWCE9MYY",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=bjmd9WfEY80",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/9yfb28XUpUQ",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

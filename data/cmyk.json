@@ -1,0 +1,19 @@
+{
+    "id": "1397330",
+    "name": "CMYK",
+    "author": "tetsutetsu_krd",
+    "creators": [
+        "tetsutetsu_krd"
+    ],
+    "verifier": "tetsutetsu_krd",
+    "verification": "https://youtu.be/E6VgOOf__L8",
+    "percentToQualify": "64",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/dJWsiog0ptU",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "142277",
+    "name": "Abyss",
+    "author": "Makalovaom7",
+    "creators": [
+        "Makalovaom7"
+    ],
+    "verifier": "Makalovaom7",
+    "verification": "https://youtu.be/QG6ZmbHeQJI",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=3HUehRp908o",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/T1MCXz97jFo",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}

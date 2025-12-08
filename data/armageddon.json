@@ -1,0 +1,31 @@
+{
+    "id": "1289926",
+    "name": "Armageddon",
+    "author": "tccgranmd",
+    "creators": [
+        "MatHiasXD740"
+    ],
+    "verifier": "tccgranmd",
+    "verification": "https://youtu.be/u3n0pUubYIs",
+    "percentToQualify": "55",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=j3mAoVemacU",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Aliqabalasad2305",
+            "link": "https://youtu.be/jhqILwzBKgw",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/Iyy2m07Ab24",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}

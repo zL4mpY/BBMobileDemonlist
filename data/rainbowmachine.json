@@ -1,0 +1,49 @@
+{
+    "id": "156452",
+    "name": "Rainbow Machine",
+    "author": "SulSoul_2",
+    "creators": [
+        "SulSoul_2"
+    ],
+    "verifier": "SulSoul_2",
+    "verification": "https://youtu.be/8_8jWMFIlAk",
+    "percentToQualify": "50",
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://www.youtube.com/watch?v=0xcXYnnwXYg",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Aliqabalasad2305",
+            "link": "https://youtu.be/aH-6qTIFzyM",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "enimeoww",
+            "link": "https://www.youtube.com/watch?v=mVFIi5CC2J8",
+            "percent": 100,
+            "hz": 90
+        },
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/wp4Zn1LT0WM",
+            "percent": 61,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/COJXytipX_Q",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/hlg3Yni8wB0",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
+}
