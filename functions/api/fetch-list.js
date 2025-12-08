@@ -36,7 +36,7 @@ export async function onRequest({ env }) {
     // Загружаем список уровней
     const listRes = await fetch(`${REPO_URL}/_list.json`, {
       headers: {
-        Authorization: `token ${GITHUB_TOKEN}`,
+        Authorization: `Bearer ${GITHUB_TOKEN}`,
         Accept: 'application/vnd.github.v3.raw',
       },
     });
@@ -49,7 +49,7 @@ export async function onRequest({ env }) {
       list.map(async (path) => {
         const levelRes = await fetch(`${REPO_URL}/${path}.json`, {
           headers: {
-            Authorization: `token ${GITHUB_TOKEN}`,
+            Authorization: `Bearer ${GITHUB_TOKEN}`,
             Accept: 'application/vnd.github.v3.raw',
           },
         });
