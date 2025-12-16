@@ -1,0 +1,44 @@
+{
+    "id": "339333",
+    "name": "\u0411\u0430\u0442\u044c\u043a\u0430 \u041e\u0440\u0451\u043b \u041a\u043e\u0440\u0438\u0434\u043e\u0440",
+    "author": "Vasim4ik_642",
+    "creators": [
+        "Vasim4ik_642",
+        "enimeoww"
+    ],
+    "verifier": "Vasim4ik_642",
+    "verification": "https://youtu.be/ILy9Dsd7A3o",
+    "percentToQualify": "70",
+    "records": [
+        {
+            "user": "hosen202020",
+            "link": "https://www.youtube.com/watch?v=GcrB4c0oNYU",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Ytuaay",
+            "link": "https://www.youtube.com/watch?v=vTseKJteq-k",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://www.youtube.com/watch?v=OYzZtLrCN3g",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?v=Mp3U5VHXVnk",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "RedWotah",
+            "link": "https://www.youtube.com/watch?v=GX2S1JrmtSc",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
+}
