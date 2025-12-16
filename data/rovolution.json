@@ -8,5 +8,12 @@
     "verifier": "SpiritGameStudioZero",
     "verification": "https://www.youtube.com/watch?v=LTO4XowJgV8",
     "percentToQualify": 65,
-    "records": []
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/XDWUlNCOC4M?si=dVdY2m4UZ1xzxJsC",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
 }
