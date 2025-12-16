@@ -8,5 +8,12 @@
     "verifier": "FracturedElement",
     "verification": "https://youtu.be/K8LEA5lfwNw",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/P3OnqHHyRHs?si=hMpsBI0t37jpcPFF",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
