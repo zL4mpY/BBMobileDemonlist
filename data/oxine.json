@@ -8,5 +8,12 @@
     "verifier": "juanplay10823",
     "verification": "https://youtu.be/K8VHvvhhuf4",
     "percentToQualify": 60,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/MdXmTx9g2_o?si=zUoqHv_uwP1yy4-a",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

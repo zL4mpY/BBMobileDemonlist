@@ -8,5 +8,12 @@
     "verifier": "clive956",
     "verification": "https://www.youtube.com/watch?v=J71DvcCVZZk",
     "percentToQualify": 67,
-    "records": []
+    "records": [
+        {
+            "user": "KarmaGMD",
+            "link": "https://www.youtube.com/watch?v=J71DvcCVZZk",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
