@@ -10,6 +10,12 @@
     "percentToQualify": 60,
     "records": [
         {
+            "user": "ObjectiveSplat",
+            "link": "https://www.youtube.com/watch?si=E1V3vpqqMw3581JB&v=_k90dHVbQB0&feature=youtu.be",
+            "percent": 100,
+            "hz": 120
+        },
+        {
             "user": "ramanoo2",
             "link": "https://youtu.be/MdXmTx9g2_o?si=zUoqHv_uwP1yy4-a",
             "percent": 100,
