@@ -8,5 +8,12 @@
     "verifier": "RealHYPBlizz",
     "verification": "https://youtu.be/q2dPIth0zuI",
     "percentToQualify": 58,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/CPYPaRSBjvA",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
