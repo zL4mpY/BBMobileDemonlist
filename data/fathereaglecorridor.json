@@ -1,6 +1,6 @@
 {
     "id": "339333",
-    "name": "\u0411\u0430\u0442\u044c\u043a\u0430 \u041e\u0440\u0451\u043b \u041a\u043e\u0440\u0438\u0434\u043e\u0440",
+    "name": "Батька Орёл Коридор",
     "author": "Vasim4ik_642",
     "creators": [
         "Vasim4ik_642",
@@ -31,6 +31,12 @@
         {
             "user": "ObjectiveSplat",
             "link": "https://www.youtube.com/watch?v=Mp3U5VHXVnk",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/5jUteHhQvkA?si=EEHGqyS-AYU18Mal",
             "percent": 100,
             "hz": 120
         },
