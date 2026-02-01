@@ -8,5 +8,12 @@
     "verifier": "Bumsquishy",
     "verification": "https://youtu.be/m_w2g3WWV1k",
     "percentToQualify": 71,
-    "records": []
+    "records": [
+        {
+            "user": "TeteuRadical2209",
+            "link": "https://youtu.be/2orZZcXihPo?si=EepDp9oTzPj6WPKS",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

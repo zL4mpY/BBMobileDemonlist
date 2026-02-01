@@ -8,5 +8,12 @@
     "verifier": "hikig6hh",
     "verification": "https://youtu.be/UAYF0l-d7FM?si=trXjEQZRuuRsYInu",
     "percentToQualify": 60,
-    "records": []
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/JXYam_LkLvs?si=p91SVCHzV9yOc_dB",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
 }
