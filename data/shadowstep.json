@@ -8,5 +8,12 @@
     "verifier": "Wese4",
     "verification": "https://youtu.be/9ubNlK9t4xI?si=BTWp_jkrJHc9qpV8",
     "percentToQualify": 51,
-    "records": []
+    "records": [
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/uop7ERT0L2M?si=I2pDMciOz5te-vSk",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
