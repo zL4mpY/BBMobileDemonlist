@@ -8,5 +8,18 @@
     "verifier": "Morkforce2nd",
     "verification": "https://youtu.be/kGIAzqhXJfo?si=Xgr9rpRcTv5QwdTg",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/kGIAzqhXJfo",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/bJFDeW4m_h4",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

@@ -8,5 +8,18 @@
     "verifier": "Superhaccylacey",
     "verification": "https://youtu.be/m9jso3X5DsU?si=w0YYAroZGQ-ubL4S",
     "percentToQualify": 60,
-    "records": []
+    "records": [
+        {
+            "user": "Superhaccylacey",
+            "link": "https://www.youtube.com/watch?v=m9jso3X5DsU",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/XMKX13KGvZA",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

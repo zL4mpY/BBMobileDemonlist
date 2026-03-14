@@ -8,5 +8,18 @@
     "verifier": "vladion25",
     "verification": "https://youtu.be/fc4CxoKCOrw?si=leqDk3I37q8hgSqB",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/ReOjZbVpw30",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/PgwHB_6vCyI",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

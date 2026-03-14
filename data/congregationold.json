@@ -8,5 +8,18 @@
     "verifier": "jesus4270",
     "verification": "https://youtu.be/Lqo62tCS3W8?si=0EF1qYaR2FCZ7qC-",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "Ytuaay",
+            "link": "https://youtu.be/dtKBJYH0iyc",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/orVo6kuaeQc",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

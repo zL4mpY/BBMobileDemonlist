@@ -11,5 +11,18 @@
     "verifier": "GhaztGD",
     "verification": "https://youtu.be/63MZkLEZ3L4?si=I6RukdTdLUnx1vLw",
     "percentToQualify": 71,
-    "records": []
+    "records": [
+        {
+            "user": "ScrimbloTheGoose",
+            "link": "https://www.youtube.com/watch?v=utzubstJJEE",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://www.youtube.com/watch?v=DqogAFhzNvk",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
