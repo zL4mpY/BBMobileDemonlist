@@ -8,5 +8,12 @@
     "verifier": "tccgramnd",
     "verification": "https://youtu.be/gjyeW5abhFY?si=dI1hk5f0gr1L9cqv",
     "percentToQualify": 75,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/pLtyRXI3lNw?si=BpWr9MlpMY1yf1PQ",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

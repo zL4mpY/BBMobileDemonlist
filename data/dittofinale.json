@@ -8,5 +8,12 @@
     "verifier": "enimeoww",
     "verification": "https://youtu.be/Au1bybqRyWw?si=vDjFf_hf2SAW0sgR",
     "percentToQualify": 58,
-    "records": []
+    "records": [
+        {
+            "user": "enimeoww",
+            "link": "https://youtu.be/EL8yvGsLNUs?si=y9o0GQr1Ky4AjrOW",
+            "percent": 100,
+            "hz": 90
+        }
+    ]
 }
