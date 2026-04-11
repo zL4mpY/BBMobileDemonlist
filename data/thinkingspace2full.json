@@ -8,5 +8,12 @@
     "verifier": "Hiplayz",
     "verification": "https://youtu.be/5hvijqGD1XI?si=QaXjQ8hM6RiuyXL2",
     "percentToQualify": 67,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/aErfYBmpGM4?si=-Wlmu1tAcAeRyuYr",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
