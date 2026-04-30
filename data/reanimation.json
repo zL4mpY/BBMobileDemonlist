@@ -8,5 +8,18 @@
     "verifier": "enimeoww",
     "verification": "https://youtu.be/SLHUblNBSSk?si=kdGsVPoBk-gRHOfy",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "inkyfredfazbear43215",
+            "link": "https://youtu.be/1ps28Y9hgz0?si=OZ8Bx0RkFcPPyVAj",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Israel1277389",
+            "link": "https://youtu.be/dCXacpUT3Ps?si=MAg_Vf93K0xDR3go",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

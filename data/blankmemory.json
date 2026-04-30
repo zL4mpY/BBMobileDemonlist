@@ -8,5 +8,12 @@
     "verifier": "Aqilhensem_128",
     "verification": "https://youtu.be/_GH8D8yEUo4?si=kj3c4tYnHHACgswC",
     "percentToQualify": 58,
-    "records": []
+    "records": [
+        {
+            "user": "Aqilhensem_128",
+            "link": "https://youtu.be/_GH8D8yEUo4?si=DbBwbh6fBjDzBPJ5",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
