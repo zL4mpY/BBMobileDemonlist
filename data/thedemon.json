@@ -8,5 +8,18 @@
     "verifier": "bpskibididomdom",
     "verification": "https://youtu.be/FxFK3WzPkb0?si=8-m4U2wv2B5qNA7j",
     "percentToQualify": 51,
-    "records": []
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/0QdLTJwSf_M?is=eG2s5pW3GNj9_py1",
+            "percent": 100,
+            "hz": 120
+        },
+        {
+            "user": "Erik_01216",
+            "link": "https://youtu.be/FxFK3WzPkb0?si=8-m4U2wv2B5qNA7j",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

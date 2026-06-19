@@ -8,5 +8,12 @@
     "verifier": "Ruco_adhd",
     "verification": "https://youtu.be/7z9vXVKvJsI?si=zo3QzcqrNqc-19bh",
     "percentToQualify": 55,
-    "records": []
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/0_4rpuxXvC8?si=6mvBeSq16sAaXcXD",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
 }

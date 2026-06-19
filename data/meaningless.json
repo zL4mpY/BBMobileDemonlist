@@ -8,5 +8,12 @@
     "verifier": "tetsutetsu_krd",
     "verification": "https://youtu.be/TuXY_6hMCkY?si=LDBwCvxgP_vZZr4w",
     "percentToQualify": 62,
-    "records": []
+    "records": [
+        {
+            "user": "Fernando362721",
+            "link": "https://youtu.be/XplXa1-hxfs?si=9dJv8EN1qlg0y1kp",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
 }
