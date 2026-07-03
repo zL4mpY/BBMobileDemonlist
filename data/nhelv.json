@@ -8,5 +8,18 @@
     "verifier": "Makalovaom7",
     "verification": "https://youtu.be/q2sP88rl4wA?si=YbhaKqQMwCB0QjF5",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/os1Z9Yn_PLk?si=2i2qdyw1OMBBcZER",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/rInIsn0Azi8?si=6tLPxuiQMfPxpW_M",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

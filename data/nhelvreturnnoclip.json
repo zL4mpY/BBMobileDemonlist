@@ -8,5 +8,18 @@
     "verifier": "lagso",
     "verification": "https://youtu.be/v_OBJR71F8U?si=1flmwrXl7oCPicxE",
     "percentToQualify": 59,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/NNaegmU5ztY?si=z4ZRwrvW00-Y3dBk",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "Erik_01216",
+            "link": "https://youtu.be/uoBG8EuJ3kY?si=2y-KdETGJaCUpbuI",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
