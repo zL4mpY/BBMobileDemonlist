@@ -1,25 +1,25 @@
 [
     {
         "role": "owner",
+        "name": "eni",
+        "ign": "enimeoww",
+        "link": "https://www.youtube.com/@enimeoww"
+    },
+    {
+        "role": "admin",
         "name": "Sora",
         "ign": "Nalik_1234",
         "link": "https://www.youtube.com/@soraagd"
     },
     {
         "role": "admin",
-        "name": "eni",
-        "ign": "enimeoww",
-        "link": "https://www.youtube.com/@enimeoww"
-    },
-    {
-        "role": "mod",
         "name": "Rayan Plays",
         "ign": "ramanoo2",
         "link": "https://www.youtube.com/@rayanplays9777"
     },
     {
         "role": "mod",
-        "name": "Clidge",
+        "name": "Machine Gang",
         "ign": "ObjectiveSplat",
         "link": "https://www.youtube.com/@Machine_gang"
     },
@@ -37,9 +37,9 @@
     },
     {
         "role": "mod",
-        "name": "T3chno",
-        "ign": "inkyfredfazbear43215",
-        "link": "https://www.youtube.com/@T3chnoStr1ke"
+        "name": "Aqil",
+        "ign": "Aqilhensem_128",
+        "link": "https://www.youtube.com/@Aqilhehehe"
     },
     {
         "role": "mod",

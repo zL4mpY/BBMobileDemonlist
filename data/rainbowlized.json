@@ -10,6 +10,12 @@
     "percentToQualify": "100",
     "records": [
         {
+            "user": "Superhaccylacey",
+            "link": "none",
+            "percent": 100,
+            "hz": 60
+        },
+        {
             "user": "ramanoo2",
             "link": "https://youtu.be/rnD7sBt70w8?si=SuKBBIZVfQwUxN9t",
             "percent": 100,
