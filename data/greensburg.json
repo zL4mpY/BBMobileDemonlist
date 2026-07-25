@@ -8,5 +8,12 @@
     "verifier": "Planka7999",
     "verification": "https://youtu.be/sSvkAV7xRBk?si=GfElZFurGoczhmmf",
     "percentToQualify": 56,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/Z3sXGzhdJ5o?si=gAw7m9gSOIdQmeWZ",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

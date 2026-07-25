@@ -8,5 +8,12 @@
     "verifier": "enimeoww",
     "verification": "https://youtu.be/XaOmoWPun8w?si=xjehpAulFjdqviP9",
     "percentToQualify": 52,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/X1B5lY7AJ9k?si=EIlnUP7OaW34YKG3",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

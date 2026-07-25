@@ -9,5 +9,18 @@
     "verifier": "GhaztRB",
     "verification": "https://youtu.be/ic0hBtkMeZM?si=cUFZQXumq2V0CMOA",
     "percentToQualify": 50,
-    "records": []
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/_TCACTH-r0E?si=4OwBWhLtyiF3ZS5m",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/ia0ZvESgL3Q?si=9DMblxXBxZKdur3X",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
