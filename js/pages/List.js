@@ -33,7 +33,7 @@ export default {
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
                         <td class="level" :class="{ 'active': selected == getRank(level)-1, 'error': !level }">
-                            <button @click="setLevel(level)">
+                            <button @click="selected = getRank(level)-1">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
@@ -218,11 +218,6 @@ export default {
                 ) + 1
             );
         },
-
-        setLevel(level) {
-            this.selected = this.getRank(level) - 1
-        },
-
         showInList() {
             let elementId = "level-" + this.getRank(this.selectedLevel)
             document.getElementById("search-bar").value = ""
