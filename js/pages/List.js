@@ -22,42 +22,46 @@ export default {
             <Spinner></Spinner>
         </main>
         <main v-else class="page-list">
-            <div class="list-container">
-                <table class="list" v-if="list">
-                    <tr v-for="([level, err], i) in list">
+            <div class="list-container" id="list-container">
+                <div class="search-bar">
+                     <input id="search-bar" type="text" v-model="searchQuery" placeholder="Search levels..." />
+                </div>
+                <table class="list" v-if="filteredList.length">
+                    <tr v-for="([level, err], i) in filteredList" :key="i" :id="'level-' + getRank(level)">
                         <td class="rank">
-                            <p v-if="i + 1 <= 150" class="type-label-lg">#{{ i + 1 }}</p>
+                            <p v-if="getRank(level) <= 100" class="type-label-lg">#{{ getRank(level) }}</p>
                             <p v-else class="type-label-lg">Legacy</p>
                         </td>
-                        <td class="level" :class="{ 'active': selected == i, 'error': !level }">
-                            <button @click="selected = i">
+                        <td class="level" :class="{ 'active': selected == getRank(level)-1, 'error': !level }">
+                            <button @click="setLevel(level)">
                                 <span class="type-label-lg">{{ level?.name || \`Error (\${err}.json)\` }}</span>
                             </button>
                         </td>
                     </tr>
                 </table>
+                <button class="button" @click="showInList()" v-if="filteredList.length > 0 && searchQuery.replace(' ', '') != ''">Show in the list</button>
+                <p v-if="filteredList.length === 0">No levels match your search.</p>
             </div>
-            <div class="level-container">
-                <div class="level" v-if="level">
-                    <h1>{{ level.name }}</h1>
-                    <LevelAuthors :author="level.author" :creators="level.creators" :verifier="level.verifier"></LevelAuthors>
+            <div class="level-container" v-if="selectedLevel">
+                <div class="level">
+                    <h1>{{ selectedLevel.name }}</h1>
+                    <LevelAuthors :author="selectedLevel.author" :creators="selectedLevel.creators" :verifier="selectedLevel.verifier"></LevelAuthors>
                     <iframe class="video" id="videoframe" :src="video" frameborder="0"></iframe>
                     <ul class="stats">
                         <li>
                             <div class="type-title-sm">Points when completed</div>
-                            <p>{{ score(selected + 1, 100, level.percentToQualify) }}</p>
+                            <p>{{ score(selected + 1, 100, selectedLevel.percentToQualify) }}</p>
                         </li>
                         <li>
                             <div class="type-title-sm">ID</div>
-                            <p>{{ level.id }}</p>
+                            <p>{{ selectedLevel.id }}</p>
                         </li>
                     </ul>
                     <h2>Records</h2>
-                    <p v-if="selected + 1 <= 75"><strong>{{ level.percentToQualify }}%</strong> or better to qualify</p>
-                    <p v-else-if="selected +1 <= 150"><strong>100%</strong> or better to qualify</p>
+                    <p v-if="selected + 1 <= 100"><strong>{{ selectedLevel.percentToQualify }}%</strong> or better to qualify</p>
                     <p v-else>This level does not accept new records.</p>
                     <table class="records">
-                        <tr v-for="record in level.records" class="record">
+                        <tr v-for="record in selectedLevel.records" class="record">
                             <td class="percent">
                                 <p>{{ record.percent }}%</p>
                             </td>
@@ -73,9 +77,6 @@ export default {
                             </td>
                         </tr>
                     </table>
-                </div>
-                <div v-else class="level" style="height: 100%; justify-content: center; align-items: center;">
-                    <p>(ノಠ益ಠ)ノ彡┻━┻</p>
                 </div>
             </div>
             <div class="meta-container">
@@ -128,7 +129,7 @@ export default {
                     <h6>Type 3: Strictly Prohibited</h6>
                     <p>Skips involving secret routes or bypassing major challenges.</p>
 
-                    <h3>Mobile recording software</h3>
+                    <h3>Recommended recording software</h3>
                     <h6>iOS:</h6>
                     <p>Built-in iOS screen recording</p>
                     <p>Record It!</p>
@@ -150,24 +151,36 @@ export default {
         loading: true,
         selected: 0,
         errors: [],
+        searchQuery: "",
         roleIconMap,
         store
     }),
     computed: {
-        level() {
-            return this.list[this.selected][0];
+        filteredList() {    
+            if (!this.searchQuery) return this.list;
+            return this.list.filter(([level, err]) => {
+                if (!level || !level.name) return false;
+                return level.name.toLowerCase().includes(this.searchQuery.toLowerCase());
+            });
         },
+
+        selectedLevel() {
+            return this.list[this.selected]
+                ? this.list[this.selected][0]
+                : null;
+        },
+
         video() {
-            if (!this.level.showcase) {
-                return embed(this.level.verification);
+            if (!this.selectedLevel.showcase) {
+                return embed(this.selectedLevel.verification);
             }
 
             return embed(
                 this.toggledShowcase
-                    ? this.level.showcase
-                    : this.level.verification
+                    ? this.selectedLevel.showcase
+                    : this.selectedLevel.verification
             );
-        },
+        }
     },
     async mounted() {
         // Hide loading spinner
@@ -197,5 +210,29 @@ export default {
     methods: {
         embed,
         score,
+        getRank(level) {
+            if (!this.selectedLevel) return this.selected + 1;
+            return (
+                this.list.findIndex(
+                (item) => item[0] && item[0].id === level.id
+                ) + 1
+            );
+        },
+
+        setLevel(level) {
+            this.selected = this.getRank(level) - 1
+        },
+
+        showInList() {
+            let elementId = "level-" + this.getRank(this.selectedLevel)
+            document.getElementById("search-bar").value = ""
+            this.searchQuery = ""
+            
+            setTimeout(() => {
+                let element = document.getElementById(elementId)
+                document.getElementById("list-container").scrollTop = element.offsetTop
+            }, 100);
+            
+        }
     },
 };

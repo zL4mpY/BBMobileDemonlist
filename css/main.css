@@ -63,9 +63,16 @@ header .logo {
     justify-self: end;
     align-self: center;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     gap: 1rem;
 }
+
+header .logo h2 {
+    font-size: 22px;
+    line-height: 30px;
+    padding: 10px;
+}
+
 header .nav {
     flex: 1;
 }
