@@ -38,6 +38,12 @@
             "link": "https://www.youtube.com/live/VBxnkpO6bMk",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "lozrbx",
+            "link": "https://youtu.be/DW8Hq4bHT9Q?si=TR5FTV47OLPktigo",
+            "percent": 100,
+            "hz": 120
         }
     ]
 }
