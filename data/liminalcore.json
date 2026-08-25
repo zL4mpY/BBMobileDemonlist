@@ -8,5 +8,12 @@
     "verifier": "supermarcus10081",
     "verification": "https://youtu.be/cAxxLLbtrok?si=3gZFnCqXc6xZaPqR",
     "percentToQualify": 53,
-    "records": []
+    "records": [
+        {
+            "user": "Tigero27",
+            "link": "https://youtu.be/mhvAYkgG0EM?si=hTlnwQ7ds0Gyqxz1",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

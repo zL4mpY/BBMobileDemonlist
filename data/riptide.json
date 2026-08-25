@@ -8,5 +8,12 @@
     "verifier": "PetsimXplayer19900",
     "verification": "https://youtu.be/a1GPCtYXXc8?si=AiNkG0j3kr-gtwAK",
     "percentToQualify": 62,
-    "records": []
+    "records": [
+        {
+            "user": "Erik_01216",
+            "link": "https://youtu.be/mhvAYkgG0EM?si=hTlnwQ7ds0Gyqxz1",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }

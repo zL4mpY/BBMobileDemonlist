@@ -8,5 +8,12 @@
     "verifier": "un_pato095",
     "verification": "https://youtu.be/4kOjAJwWvzw?si=mITZQTDkczC-_ZTd",
     "percentToQualify": 48,
-    "records": []
+    "records": [
+        {
+            "user": "Erik_01216",
+            "link": "https://youtu.be/4kOjAJwWvzw?si=mITZQTDkczC-_ZTd",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
