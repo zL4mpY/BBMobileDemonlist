@@ -8,5 +8,12 @@
     "verifier": "Zswirll",
     "verification": "https://youtu.be/1MtM0XErVJM?si=X3Lp5B1cRsjpX4wY",
     "percentToQualify": 52,
-    "records": []
+    "records": [
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/PfXf9nDVQF8?si=9lMbDLsHKWwsHaqZ",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
