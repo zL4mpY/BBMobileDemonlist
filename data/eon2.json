@@ -8,5 +8,18 @@
     "verifier": "proguy2502",
     "verification": "https://youtu.be/dRJWPz7R_-U?si=pcfvqb-jobPNmKK7",
     "percentToQualify": 60,
-    "records": []
+    "records": [
+        {
+            "user": "Erik_01216",
+            "link": "https://youtu.be/dRJWPz7R_-U?si=pcfvqb-jobPNmKK7",
+            "percent": 100,
+            "hz": 60
+        },
+        {
+            "user": "ramanoo2",
+            "link": "https://youtu.be/Q5riKYJKM0o?si=BrPmmZA7KxkAggr-",
+            "percent": 100,
+            "hz": 60
+        }
+    ]
 }
