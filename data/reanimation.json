@@ -57,6 +57,12 @@
             "link": "https://youtube.com/watch?v=uLIrjDkhRAY&si=Rt-DzzDbS1CLWvmL",
             "percent": 100,
             "hz": 120
+        },
+        {
+            "user": "1username56",
+            "link": "https://youtu.be/f4-EfR4i55Y?si=JPASJxOgehyH7OQs",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
