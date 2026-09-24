@@ -8,5 +8,12 @@
     "verifier": "ObjectiveSplat",
     "verification": "https://youtu.be/cLrGIrBkzt0?si=fZZ0eTptyakGMrt3",
     "percentToQualify": 52,
-    "records": []
+    "records": [
+        {
+            "user": "ObjectiveSplat",
+            "link": "https://youtu.be/cLrGIrBkzt0?is=Dj8yDXGY1bmmx6Af",
+            "percent": 100,
+            "hz": 120
+        }
+    ]
 }
