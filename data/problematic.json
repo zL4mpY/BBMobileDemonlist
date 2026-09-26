@@ -172,6 +172,12 @@
             "link": "https://m.youtube.com/watch?v=pVTPeOSCYXI&ra=m",
             "percent": 100,
             "hz": 60
+        },
+        {
+            "user": "cursed_seek",
+            "link": "https://youtu.be/lT31flOHloc?si=-TCSIjvrVLY4Jf4B",
+            "percent": 100,
+            "hz": 60
         }
     ]
 }
